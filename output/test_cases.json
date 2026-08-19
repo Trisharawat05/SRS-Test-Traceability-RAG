@@ -1,0 +1,134 @@
+[
+    {
+        "id": "TC_01",
+        "title": "Register",
+        "description": "Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account",
+        "steps": "Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password",
+        "expected_result": "Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 15"
+    },
+    {
+        "id": "TC_02",
+        "title": "Login",
+        "description": "Verify the login functionality of online Hotel Reservation",
+        "steps": "",
+        "expected_result": "",
+        "actual_result": "",
+        "status": "",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 16"
+    },
+    {
+        "id": "TC_03",
+        "title": "Search Hotel",
+        "description": "Verify the search hotel items functionality of system Prereq: User has login to the account successfully",
+        "steps": "Enter search Hotel Search nearest Hotels",
+        "expected_result": "Hotels displayed Nearest hotels displayed",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 17"
+    },
+    {
+        "id": "TC_04",
+        "title": "Select Hotel",
+        "description": "Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.",
+        "steps": "Enter User name Enter password Select desired hotel Hotel selected",
+        "expected_result": "User name entered Password entered",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 17"
+    },
+    {
+        "id": "TC_05",
+        "title": "Check Room Availability",
+        "description": "Verify the check room availability of hotel Prereq: User must select hotel first.",
+        "steps": "Click room’s availability Choose No. of rooms",
+        "expected_result": "Available rooms displayed Rooms selected",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 18"
+    },
+    {
+        "id": "TC_06",
+        "title": "Confirm Booking",
+        "description": "To allow user to confirm booking Prereq: User must booked rooms and enter valid details about",
+        "steps": "Enter confirm booking Select done",
+        "expected_result": "All details displayed Booking confirmed",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 19"
+    },
+    {
+        "id": "TC_07",
+        "title": "Cancel Booking",
+        "description": "To allow user to cancel booking Prereq: User must firstly booked rooms before cancelling.",
+        "steps": "1 Select cancel booking Booking canceled",
+        "expected_result": "",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 19"
+    },
+    {
+        "id": "TC_08",
+        "title": "Store Customer’s Detail",
+        "description": "Verify the store customer detail functionality Prereq: User must booked rooms.",
+        "steps": "Check details Edit details Store customer details",
+        "expected_result": "Details displayed Details edited Details stored",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 20"
+    },
+    {
+        "id": "TC_09",
+        "title": "Receive Confirmation Message",
+        "description": "Verify the confirmation of booking Prereq: User has Booked rooms",
+        "steps": "Check confirmation message Booking confirmed",
+        "expected_result": "",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 20"
+    },
+    {
+        "id": "TC_10",
+        "title": "Make Payment",
+        "description": "Allow user to make payment Prereq: Confirmed booking",
+        "steps": "Enter Payment Method. Enter Credit Card details. System checked credit card details. Valid Payment Method selected. Valid credit card details entered. If Credit card details are wrong, rejected otherwise accepted.",
+        "expected_result": "",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 21"
+    },
+    {
+        "id": "TC_11",
+        "title": "Generate Report",
+        "description": "Verify the register account functionality of gym management Prereq: Booking is confirmed",
+        "steps": "Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "expected_result": "",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 22"
+    },
+    {
+        "id": "TC_12",
+        "title": "Forget Password",
+        "description": "Verify the forget password selection functionality of gym Prereq: User has entered wrong password or has forgotten the",
+        "steps": "Enter Wrong Password Click Forgot Password link Wrong password entered",
+        "expected_result": "Link opened Enter your email and create a new password",
+        "actual_result": "",
+        "status": "Passed",
+        "source_file": "Test Document.pdf",
+        "source_location": "Page 22"
+    }
+]

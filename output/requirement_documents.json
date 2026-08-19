@@ -1,0 +1,218 @@
+[
+    {
+        "id": "FR-01",
+        "text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 8"
+        }
+    },
+    {
+        "id": "FR-02",
+        "text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 8"
+        }
+    },
+    {
+        "id": "FR-03",
+        "text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 9"
+        }
+    },
+    {
+        "id": "FR-04",
+        "text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 9"
+        }
+    },
+    {
+        "id": "FR-05",
+        "text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 9"
+        }
+    },
+    {
+        "id": "FR-06",
+        "text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 10"
+        }
+    },
+    {
+        "id": "FR-07",
+        "text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 10"
+        }
+    },
+    {
+        "id": "FR-08",
+        "text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 10"
+        }
+    },
+    {
+        "id": "FR-09",
+        "text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 11"
+        }
+    },
+    {
+        "id": "FR-10",
+        "text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 11"
+        }
+    },
+    {
+        "id": "FR-11",
+        "text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 11"
+        }
+    },
+    {
+        "id": "FR-12",
+        "text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 12"
+        }
+    },
+    {
+        "id": "5.2.1",
+        "text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 12"
+        }
+    },
+    {
+        "id": "NFR-01",
+        "text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 12"
+        }
+    },
+    {
+        "id": "5.2.2",
+        "text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 12"
+        }
+    },
+    {
+        "id": "NFR-02",
+        "text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 12"
+        }
+    },
+    {
+        "id": "5.2.3",
+        "text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 13"
+        }
+    },
+    {
+        "id": "NFR-03",
+        "text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 13"
+        }
+    },
+    {
+        "id": "NFR-04",
+        "text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 13"
+        }
+    },
+    {
+        "id": "5.2.5",
+        "text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 13"
+        }
+    },
+    {
+        "id": "NFR-04",
+        "text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 13"
+        }
+    },
+    {
+        "id": "REQ-AUTO-001",
+        "text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 6"
+        }
+    },
+    {
+        "id": "REQ-AUTO-002",
+        "text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 6"
+        }
+    },
+    {
+        "id": "REQ-AUTO-003",
+        "text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "metadata": {
+            "type": "requirement",
+            "source_file": "SRS document.pdf",
+            "source_location": "Page 8"
+        }
+    }
+]

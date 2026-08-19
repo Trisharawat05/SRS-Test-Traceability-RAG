@@ -1,0 +1,170 @@
+[
+    {
+        "id": "FR-01",
+        "text": "The user should know how to log-in(User must know username and password).",
+        "title": "Log-in and Checking page availability",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 8"
+    },
+    {
+        "id": "FR-02",
+        "text": "The user should know how to register. Then user should know how to use the",
+        "title": "Register",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 8"
+    },
+    {
+        "id": "FR-03",
+        "text": "The user can search the desired hotel by checking the list of different available",
+        "title": "Search Hotel",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 9"
+    },
+    {
+        "id": "FR-04",
+        "text": "The user can select a particular hotel from the list of different hotels",
+        "title": "Select Hotel",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 9"
+    },
+    {
+        "id": "FR-05",
+        "text": "The user can check whether any rooms are available in the hotel which he has",
+        "title": "Check Room Availability",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 9"
+    },
+    {
+        "id": "FR-06",
+        "text": "The page will display the message that the booking has been confirmed",
+        "title": "Confirm Booking",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 10"
+    },
+    {
+        "id": "FR-07",
+        "text": "The page will display the message that whether booking is confirmed or cancel.",
+        "title": "Cancel Booking",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 10"
+    },
+    {
+        "id": "FR-08",
+        "text": "The page should store Customer’s surname, phone number, email address and",
+        "title": "Store Customer’s Detail",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 10"
+    },
+    {
+        "id": "FR-09",
+        "text": "The page will display the message through email that booking has been",
+        "title": "Confirmation Message",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 11"
+    },
+    {
+        "id": "FR-10",
+        "text": "The page shall display the price of the selected room, field for credit card",
+        "title": "Make Payment",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 11"
+    },
+    {
+        "id": "FR-11",
+        "text": "The page shall display the final report after confirmation.",
+        "title": "Generate Report",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 11"
+    },
+    {
+        "id": "FR-12",
+        "text": "The user should know the process of recovering password if he/she forgets and",
+        "title": "Forget Password",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 12"
+    },
+    {
+        "id": "5.2.1",
+        "text": "The system should have immediate response time.",
+        "title": "Performance Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 12"
+    },
+    {
+        "id": "NFR-01",
+        "text": "Every booking submission & modification should be updated in Hotel’s common",
+        "title": "Performance Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 12"
+    },
+    {
+        "id": "5.2.2",
+        "text": "System shall be accessible 98% of the time.",
+        "title": "Reliability Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 12"
+    },
+    {
+        "id": "NFR-02",
+        "text": "Database should be synchronized to cloud every 5 minutes. Database should be",
+        "title": "Reliability Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 12"
+    },
+    {
+        "id": "5.2.3",
+        "text": "The system should be secure as it contains personal information about the customer.",
+        "title": "Security Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 13"
+    },
+    {
+        "id": "NFR-03",
+        "text": "Customer’s personal details shall be encrypted. Customer’s credit card details shall",
+        "title": "Security Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 13"
+    },
+    {
+        "id": "NFR-04",
+        "text": "No method in any object may exceed 100 lines of code. System failure recovery",
+        "title": "Maintainability Requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 13"
+    },
+    {
+        "id": "5.2.5",
+        "text": "System shall be accessible on mobile devices.",
+        "title": "Portability requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 13"
+    },
+    {
+        "id": "NFR-04",
+        "text": "System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet",
+        "title": "Portability requirement",
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 13"
+    },
+    {
+        "id": "REQ-AUTO-001",
+        "text": "Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "title": null,
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 6"
+    },
+    {
+        "id": "REQ-AUTO-002",
+        "text": "and add customers, update booking details and remove them. Manger is required to have experience",
+        "title": null,
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 6"
+    },
+    {
+        "id": "REQ-AUTO-003",
+        "text": "connection with the customer’s computer will provide the efficient service.",
+        "title": null,
+        "source_file": "SRS document.pdf",
+        "source_location": "Page 8"
+    }
+]

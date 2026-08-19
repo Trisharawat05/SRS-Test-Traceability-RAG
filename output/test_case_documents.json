@@ -1,0 +1,110 @@
+[
+    {
+        "id": "TC_01",
+        "text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 15"
+        }
+    },
+    {
+        "id": "TC_02",
+        "text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 16"
+        }
+    },
+    {
+        "id": "TC_03",
+        "text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 17"
+        }
+    },
+    {
+        "id": "TC_04",
+        "text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 17"
+        }
+    },
+    {
+        "id": "TC_05",
+        "text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 18"
+        }
+    },
+    {
+        "id": "TC_06",
+        "text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 19"
+        }
+    },
+    {
+        "id": "TC_07",
+        "text": "Test Case ID: TC_07\nTitle: Cancel Booking\nDescription: To allow user to cancel booking Prereq: User must firstly booked rooms before cancelling.\nSteps: 1 Select cancel booking Booking canceled",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 19"
+        }
+    },
+    {
+        "id": "TC_08",
+        "text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 20"
+        }
+    },
+    {
+        "id": "TC_09",
+        "text": "Test Case ID: TC_09\nTitle: Receive Confirmation Message\nDescription: Verify the confirmation of booking Prereq: User has Booked rooms\nSteps: Check confirmation message Booking confirmed",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 20"
+        }
+    },
+    {
+        "id": "TC_10",
+        "text": "Test Case ID: TC_10\nTitle: Make Payment\nDescription: Allow user to make payment Prereq: Confirmed booking\nSteps: Enter Payment Method. Enter Credit Card details. System checked credit card details. Valid Payment Method selected. Valid credit card details entered. If Credit card details are wrong, rejected otherwise accepted.",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 21"
+        }
+    },
+    {
+        "id": "TC_11",
+        "text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 22"
+        }
+    },
+    {
+        "id": "TC_12",
+        "text": "Test Case ID: TC_12\nTitle: Forget Password\nDescription: Verify the forget password selection functionality of gym Prereq: User has entered wrong password or has forgotten the\nSteps: Enter Wrong Password Click Forgot Password link Wrong password entered\nExpected Result: Link opened Enter your email and create a new password",
+        "metadata": {
+            "type": "test_case",
+            "source_file": "Test Document.pdf",
+            "source_location": "Page 22"
+        }
+    }
+]

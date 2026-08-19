@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# ChromaDB
+chroma_db/
+
+# Generated embeddings
+output/*_embeddings.json
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
