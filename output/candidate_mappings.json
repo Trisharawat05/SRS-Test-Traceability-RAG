@@ -1,0 +1,1082 @@
+[
+    {
+        "requirement_id": "FR-01",
+        "requirement_text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.3809,
+        "reranker_score": 0.0106,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-01",
+        "requirement_text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.3264,
+        "reranker_score": 0.0091,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-01",
+        "requirement_text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.317,
+        "reranker_score": 0.0078,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-01",
+        "requirement_text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.3453,
+        "reranker_score": 0.0049,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-01",
+        "requirement_text": "Requirement ID: FR-01\nRequirement: The user should know how to log-in(User must know username and password).\nTitle: Log-in and Checking page availability",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.3227,
+        "reranker_score": 0.0018,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-02",
+        "requirement_text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4254,
+        "reranker_score": 0.4071,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-02",
+        "requirement_text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.2745,
+        "reranker_score": 0.0122,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-02",
+        "requirement_text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.2956,
+        "reranker_score": 0.0084,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-02",
+        "requirement_text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2926,
+        "reranker_score": 0.0028,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-02",
+        "requirement_text": "Requirement ID: FR-02\nRequirement: The user should know how to register. Then user should know how to use the\nTitle: Register",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.2717,
+        "reranker_score": 0.0024,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-03",
+        "requirement_text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.578,
+        "reranker_score": 0.6815,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-03",
+        "requirement_text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.4953,
+        "reranker_score": 0.1769,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-03",
+        "requirement_text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.5184,
+        "reranker_score": 0.0258,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-03",
+        "requirement_text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.4456,
+        "reranker_score": 0.0121,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-03",
+        "requirement_text": "Requirement ID: FR-03\nRequirement: The user can search the desired hotel by checking the list of different available\nTitle: Search Hotel",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4503,
+        "reranker_score": 0.0073,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-04",
+        "requirement_text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.6065,
+        "reranker_score": 0.9573,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-04",
+        "requirement_text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.5129,
+        "reranker_score": 0.0281,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-04",
+        "requirement_text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.482,
+        "reranker_score": 0.0113,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-04",
+        "requirement_text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4609,
+        "reranker_score": 0.006,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-04",
+        "requirement_text": "Requirement ID: FR-04\nRequirement: The user can select a particular hotel from the list of different hotels\nTitle: Select Hotel",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.4334,
+        "reranker_score": 0.0036,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-05",
+        "requirement_text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.6463,
+        "reranker_score": 0.9762,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-05",
+        "requirement_text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.4772,
+        "reranker_score": 0.0146,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-05",
+        "requirement_text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.4569,
+        "reranker_score": 0.0133,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-05",
+        "requirement_text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.4811,
+        "reranker_score": 0.01,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-05",
+        "requirement_text": "Requirement ID: FR-05\nRequirement: The user can check whether any rooms are available in the hotel which he has\nTitle: Check Room Availability",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.4732,
+        "reranker_score": 0.01,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-06",
+        "requirement_text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.671,
+        "reranker_score": 0.959,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-06",
+        "requirement_text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "test_case_id": "TC_09",
+        "test_case_text": "Test Case ID: TC_09\nTitle: Receive Confirmation Message\nDescription: Verify the confirmation of booking Prereq: User has Booked rooms\nSteps: Check confirmation message Booking confirmed",
+        "retrieval_similarity": 0.5911,
+        "reranker_score": 0.3695,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-06",
+        "requirement_text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.4021,
+        "reranker_score": 0.0389,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-06",
+        "requirement_text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4386,
+        "reranker_score": 0.0023,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-06",
+        "requirement_text": "Requirement ID: FR-06\nRequirement: The page will display the message that the booking has been confirmed\nTitle: Confirm Booking",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.4078,
+        "reranker_score": 0.0011,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-07",
+        "requirement_text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "test_case_id": "TC_07",
+        "test_case_text": "Test Case ID: TC_07\nTitle: Cancel Booking\nDescription: To allow user to cancel booking Prereq: User must firstly booked rooms before cancelling.\nSteps: 1 Select cancel booking Booking canceled",
+        "retrieval_similarity": 0.6273,
+        "reranker_score": 0.9498,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-07",
+        "requirement_text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.5779,
+        "reranker_score": 0.3251,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-07",
+        "requirement_text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "test_case_id": "TC_09",
+        "test_case_text": "Test Case ID: TC_09\nTitle: Receive Confirmation Message\nDescription: Verify the confirmation of booking Prereq: User has Booked rooms\nSteps: Check confirmation message Booking confirmed",
+        "retrieval_similarity": 0.4966,
+        "reranker_score": 0.0661,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-07",
+        "requirement_text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4227,
+        "reranker_score": 0.004,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-07",
+        "requirement_text": "Requirement ID: FR-07\nRequirement: The page will display the message that whether booking is confirmed or cancel.\nTitle: Cancel Booking",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.3717,
+        "reranker_score": 0.003,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-08",
+        "requirement_text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.5362,
+        "reranker_score": 0.9728,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-08",
+        "requirement_text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4051,
+        "reranker_score": 0.0033,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-08",
+        "requirement_text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2832,
+        "reranker_score": 0.0011,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-08",
+        "requirement_text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.3142,
+        "reranker_score": 0.0005,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-08",
+        "requirement_text": "Requirement ID: FR-08\nRequirement: The page should store Customer’s surname, phone number, email address and\nTitle: Store Customer’s Detail",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2878,
+        "reranker_score": 0.0004,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-09",
+        "requirement_text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "test_case_id": "TC_09",
+        "test_case_text": "Test Case ID: TC_09\nTitle: Receive Confirmation Message\nDescription: Verify the confirmation of booking Prereq: User has Booked rooms\nSteps: Check confirmation message Booking confirmed",
+        "retrieval_similarity": 0.5765,
+        "reranker_score": 0.4427,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-09",
+        "requirement_text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.5418,
+        "reranker_score": 0.0319,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-09",
+        "requirement_text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4498,
+        "reranker_score": 0.0013,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-09",
+        "requirement_text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.3845,
+        "reranker_score": 0.0004,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-09",
+        "requirement_text": "Requirement ID: FR-09\nRequirement: The page will display the message through email that booking has been\nTitle: Confirmation Message",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.3714,
+        "reranker_score": 0.0003,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-10",
+        "requirement_text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "test_case_id": "TC_10",
+        "test_case_text": "Test Case ID: TC_10\nTitle: Make Payment\nDescription: Allow user to make payment Prereq: Confirmed booking\nSteps: Enter Payment Method. Enter Credit Card details. System checked credit card details. Valid Payment Method selected. Valid credit card details entered. If Credit card details are wrong, rejected otherwise accepted.",
+        "retrieval_similarity": 0.4552,
+        "reranker_score": 0.7845,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-10",
+        "requirement_text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.34,
+        "reranker_score": 0.0057,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-10",
+        "requirement_text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.387,
+        "reranker_score": 0.003,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-10",
+        "requirement_text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.3319,
+        "reranker_score": 0.0005,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-10",
+        "requirement_text": "Requirement ID: FR-10\nRequirement: The page shall display the price of the selected room, field for credit card\nTitle: Make Payment",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.3299,
+        "reranker_score": 0.0003,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-11",
+        "requirement_text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.3544,
+        "reranker_score": 0.4764,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-11",
+        "requirement_text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.2708,
+        "reranker_score": 0.0014,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-11",
+        "requirement_text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.2557,
+        "reranker_score": 0.0008,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-11",
+        "requirement_text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.2518,
+        "reranker_score": 0.0006,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-11",
+        "requirement_text": "Requirement ID: FR-11\nRequirement: The page shall display the final report after confirmation.\nTitle: Generate Report",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2686,
+        "reranker_score": 0.0001,
+        "rank": 5
+    },
+    {
+        "requirement_id": "FR-12",
+        "requirement_text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "test_case_id": "TC_12",
+        "test_case_text": "Test Case ID: TC_12\nTitle: Forget Password\nDescription: Verify the forget password selection functionality of gym Prereq: User has entered wrong password or has forgotten the\nSteps: Enter Wrong Password Click Forgot Password link Wrong password entered\nExpected Result: Link opened Enter your email and create a new password",
+        "retrieval_similarity": 0.4767,
+        "reranker_score": 0.8356,
+        "rank": 1
+    },
+    {
+        "requirement_id": "FR-12",
+        "requirement_text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.368,
+        "reranker_score": 0.019,
+        "rank": 2
+    },
+    {
+        "requirement_id": "FR-12",
+        "requirement_text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.2807,
+        "reranker_score": 0.0028,
+        "rank": 3
+    },
+    {
+        "requirement_id": "FR-12",
+        "requirement_text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2755,
+        "reranker_score": 0.0028,
+        "rank": 4
+    },
+    {
+        "requirement_id": "FR-12",
+        "requirement_text": "Requirement ID: FR-12\nRequirement: The user should know the process of recovering password if he/she forgets and\nTitle: Forget Password",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2304,
+        "reranker_score": 0.0008,
+        "rank": 5
+    },
+    {
+        "requirement_id": "5.2.1",
+        "requirement_text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.198,
+        "reranker_score": 0.0008,
+        "rank": 1
+    },
+    {
+        "requirement_id": "5.2.1",
+        "requirement_text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.214,
+        "reranker_score": 0.0006,
+        "rank": 2
+    },
+    {
+        "requirement_id": "5.2.1",
+        "requirement_text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.2033,
+        "reranker_score": 0.0003,
+        "rank": 3
+    },
+    {
+        "requirement_id": "5.2.1",
+        "requirement_text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.1996,
+        "reranker_score": 0.0003,
+        "rank": 4
+    },
+    {
+        "requirement_id": "5.2.1",
+        "requirement_text": "Requirement ID: 5.2.1\nRequirement: The system should have immediate response time.\nTitle: Performance Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2142,
+        "reranker_score": 0.0002,
+        "rank": 5
+    },
+    {
+        "requirement_id": "NFR-01",
+        "requirement_text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.4301,
+        "reranker_score": 0.0074,
+        "rank": 1
+    },
+    {
+        "requirement_id": "NFR-01",
+        "requirement_text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.3843,
+        "reranker_score": 0.0021,
+        "rank": 2
+    },
+    {
+        "requirement_id": "NFR-01",
+        "requirement_text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.3626,
+        "reranker_score": 0.0021,
+        "rank": 3
+    },
+    {
+        "requirement_id": "NFR-01",
+        "requirement_text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.3918,
+        "reranker_score": 0.0019,
+        "rank": 4
+    },
+    {
+        "requirement_id": "NFR-01",
+        "requirement_text": "Requirement ID: NFR-01\nRequirement: Every booking submission & modification should be updated in Hotel’s common\nTitle: Performance Requirement",
+        "test_case_id": "TC_07",
+        "test_case_text": "Test Case ID: TC_07\nTitle: Cancel Booking\nDescription: To allow user to cancel booking Prereq: User must firstly booked rooms before cancelling.\nSteps: 1 Select cancel booking Booking canceled",
+        "retrieval_similarity": 0.3612,
+        "reranker_score": 0.0008,
+        "rank": 5
+    },
+    {
+        "requirement_id": "5.2.2",
+        "requirement_text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.1361,
+        "reranker_score": 0.0003,
+        "rank": 1
+    },
+    {
+        "requirement_id": "5.2.2",
+        "requirement_text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.1899,
+        "reranker_score": 0.0002,
+        "rank": 2
+    },
+    {
+        "requirement_id": "5.2.2",
+        "requirement_text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.1521,
+        "reranker_score": 0.0002,
+        "rank": 3
+    },
+    {
+        "requirement_id": "5.2.2",
+        "requirement_text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.263,
+        "reranker_score": 0.0001,
+        "rank": 4
+    },
+    {
+        "requirement_id": "5.2.2",
+        "requirement_text": "Requirement ID: 5.2.2\nRequirement: System shall be accessible 98% of the time.\nTitle: Reliability Requirement",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.1516,
+        "reranker_score": 0.0001,
+        "rank": 5
+    },
+    {
+        "requirement_id": "NFR-02",
+        "requirement_text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2199,
+        "reranker_score": 0.0002,
+        "rank": 1
+    },
+    {
+        "requirement_id": "NFR-02",
+        "requirement_text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.213,
+        "reranker_score": 0.0001,
+        "rank": 2
+    },
+    {
+        "requirement_id": "NFR-02",
+        "requirement_text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.196,
+        "reranker_score": 0.0001,
+        "rank": 3
+    },
+    {
+        "requirement_id": "NFR-02",
+        "requirement_text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.2086,
+        "reranker_score": 0.0,
+        "rank": 4
+    },
+    {
+        "requirement_id": "NFR-02",
+        "requirement_text": "Requirement ID: NFR-02\nRequirement: Database should be synchronized to cloud every 5 minutes. Database should be\nTitle: Reliability Requirement",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.1691,
+        "reranker_score": 0.0,
+        "rank": 5
+    },
+    {
+        "requirement_id": "5.2.3",
+        "requirement_text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.3412,
+        "reranker_score": 0.0055,
+        "rank": 1
+    },
+    {
+        "requirement_id": "5.2.3",
+        "requirement_text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.2874,
+        "reranker_score": 0.0023,
+        "rank": 2
+    },
+    {
+        "requirement_id": "5.2.3",
+        "requirement_text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.2378,
+        "reranker_score": 0.0013,
+        "rank": 3
+    },
+    {
+        "requirement_id": "5.2.3",
+        "requirement_text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.2552,
+        "reranker_score": 0.0011,
+        "rank": 4
+    },
+    {
+        "requirement_id": "5.2.3",
+        "requirement_text": "Requirement ID: 5.2.3\nRequirement: The system should be secure as it contains personal information about the customer.\nTitle: Security Requirement",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.2593,
+        "reranker_score": 0.0009,
+        "rank": 5
+    },
+    {
+        "requirement_id": "NFR-03",
+        "requirement_text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.3467,
+        "reranker_score": 0.0032,
+        "rank": 1
+    },
+    {
+        "requirement_id": "NFR-03",
+        "requirement_text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.3189,
+        "reranker_score": 0.002,
+        "rank": 2
+    },
+    {
+        "requirement_id": "NFR-03",
+        "requirement_text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.2773,
+        "reranker_score": 0.001,
+        "rank": 3
+    },
+    {
+        "requirement_id": "NFR-03",
+        "requirement_text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.2421,
+        "reranker_score": 0.0005,
+        "rank": 4
+    },
+    {
+        "requirement_id": "NFR-03",
+        "requirement_text": "Requirement ID: NFR-03\nRequirement: Customer’s personal details shall be encrypted. Customer’s credit card details shall\nTitle: Security Requirement",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2387,
+        "reranker_score": 0.0004,
+        "rank": 5
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.1146,
+        "reranker_score": 0.0005,
+        "rank": 1
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.1311,
+        "reranker_score": 0.0003,
+        "rank": 2
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.0811,
+        "reranker_score": 0.0003,
+        "rank": 3
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.108,
+        "reranker_score": 0.0002,
+        "rank": 4
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: No method in any object may exceed 100 lines of code. System failure recovery\nTitle: Maintainability Requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.0957,
+        "reranker_score": 0.0002,
+        "rank": 5
+    },
+    {
+        "requirement_id": "5.2.5",
+        "requirement_text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.1721,
+        "reranker_score": 0.0009,
+        "rank": 1
+    },
+    {
+        "requirement_id": "5.2.5",
+        "requirement_text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.1517,
+        "reranker_score": 0.0007,
+        "rank": 2
+    },
+    {
+        "requirement_id": "5.2.5",
+        "requirement_text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.1797,
+        "reranker_score": 0.0004,
+        "rank": 3
+    },
+    {
+        "requirement_id": "5.2.5",
+        "requirement_text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.1561,
+        "reranker_score": 0.0004,
+        "rank": 4
+    },
+    {
+        "requirement_id": "5.2.5",
+        "requirement_text": "Requirement ID: 5.2.5\nRequirement: System shall be accessible on mobile devices.\nTitle: Portability requirement",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.1622,
+        "reranker_score": 0.0003,
+        "rank": 5
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.1721,
+        "reranker_score": 0.0004,
+        "rank": 1
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.166,
+        "reranker_score": 0.0004,
+        "rank": 2
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "test_case_id": "TC_02",
+        "test_case_text": "Test Case ID: TC_02\nTitle: Login\nDescription: Verify the login functionality of online Hotel Reservation",
+        "retrieval_similarity": 0.1818,
+        "reranker_score": 0.0002,
+        "rank": 3
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2217,
+        "reranker_score": 0.0001,
+        "rank": 4
+    },
+    {
+        "requirement_id": "NFR-04",
+        "requirement_text": "Requirement ID: NFR-04\nRequirement: System shall be accessible on Google Chrome, Firefox, Safari, Opera and Internet\nTitle: Portability requirement",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.1307,
+        "reranker_score": 0.0001,
+        "rank": 5
+    },
+    {
+        "requirement_id": "REQ-AUTO-001",
+        "requirement_text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.1856,
+        "reranker_score": 0.0003,
+        "rank": 1
+    },
+    {
+        "requirement_id": "REQ-AUTO-001",
+        "requirement_text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.1459,
+        "reranker_score": 0.0003,
+        "rank": 2
+    },
+    {
+        "requirement_id": "REQ-AUTO-001",
+        "requirement_text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.2304,
+        "reranker_score": 0.0001,
+        "rank": 3
+    },
+    {
+        "requirement_id": "REQ-AUTO-001",
+        "requirement_text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.1767,
+        "reranker_score": 0.0001,
+        "rank": 4
+    },
+    {
+        "requirement_id": "REQ-AUTO-001",
+        "requirement_text": "Requirement ID: REQ-AUTO-001\nRequirement: Manager have every access to the system. He is responsible for managing resources and staff. Manager",
+        "test_case_id": "TC_05",
+        "test_case_text": "Test Case ID: TC_05\nTitle: Check Room Availability\nDescription: Verify the check room availability of hotel Prereq: User must select hotel first.\nSteps: Click room’s availability Choose No. of rooms\nExpected Result: Available rooms displayed Rooms selected",
+        "retrieval_similarity": 0.146,
+        "reranker_score": 0.0001,
+        "rank": 5
+    },
+    {
+        "requirement_id": "REQ-AUTO-002",
+        "requirement_text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "test_case_id": "TC_06",
+        "test_case_text": "Test Case ID: TC_06\nTitle: Confirm Booking\nDescription: To allow user to confirm booking Prereq: User must booked rooms and enter valid details about\nSteps: Enter confirm booking Select done\nExpected Result: All details displayed Booking confirmed",
+        "retrieval_similarity": 0.3782,
+        "reranker_score": 0.0015,
+        "rank": 1
+    },
+    {
+        "requirement_id": "REQ-AUTO-002",
+        "requirement_text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.404,
+        "reranker_score": 0.0009,
+        "rank": 2
+    },
+    {
+        "requirement_id": "REQ-AUTO-002",
+        "requirement_text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "test_case_id": "TC_07",
+        "test_case_text": "Test Case ID: TC_07\nTitle: Cancel Booking\nDescription: To allow user to cancel booking Prereq: User must firstly booked rooms before cancelling.\nSteps: 1 Select cancel booking Booking canceled",
+        "retrieval_similarity": 0.3847,
+        "reranker_score": 0.0006,
+        "rank": 3
+    },
+    {
+        "requirement_id": "REQ-AUTO-002",
+        "requirement_text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.3812,
+        "reranker_score": 0.0005,
+        "rank": 4
+    },
+    {
+        "requirement_id": "REQ-AUTO-002",
+        "requirement_text": "Requirement ID: REQ-AUTO-002\nRequirement: and add customers, update booking details and remove them. Manger is required to have experience",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.3373,
+        "reranker_score": 0.0005,
+        "rank": 5
+    },
+    {
+        "requirement_id": "REQ-AUTO-003",
+        "requirement_text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "test_case_id": "TC_08",
+        "test_case_text": "Test Case ID: TC_08\nTitle: Store Customer’s Detail\nDescription: Verify the store customer detail functionality Prereq: User must booked rooms.\nSteps: Check details Edit details Store customer details\nExpected Result: Details displayed Details edited Details stored",
+        "retrieval_similarity": 0.2211,
+        "reranker_score": 0.0002,
+        "rank": 1
+    },
+    {
+        "requirement_id": "REQ-AUTO-003",
+        "requirement_text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "test_case_id": "TC_01",
+        "test_case_text": "Test Case ID: TC_01\nTitle: Register\nDescription: Verify the register account functionality of Hotel Reservation Prereq: User should not be registered before by same account\nSteps: Enter first name Enter last name Select gender Enter email Enter phone number Create Password Enter confirm Password\nExpected Result: Full name entered Last name entered Gender selected Email entered Phone number entered Password created Password re-entered",
+        "retrieval_similarity": 0.225,
+        "reranker_score": 0.0001,
+        "rank": 2
+    },
+    {
+        "requirement_id": "REQ-AUTO-003",
+        "requirement_text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "test_case_id": "TC_11",
+        "test_case_text": "Test Case ID: TC_11\nTitle: Generate Report\nDescription: Verify the register account functionality of gym management Prereq: Booking is confirmed\nSteps: Enter CNIC If foreigner, enter passport number Enter customer signature CNIC entered Passport no. entered Signature entered",
+        "retrieval_similarity": 0.2891,
+        "reranker_score": 0.0,
+        "rank": 3
+    },
+    {
+        "requirement_id": "REQ-AUTO-003",
+        "requirement_text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "test_case_id": "TC_04",
+        "test_case_text": "Test Case ID: TC_04\nTitle: Select Hotel\nDescription: Allow user to select hotel Prereq: User has already registered with the system Prereq: User has login to the account successfully.\nSteps: Enter User name Enter password Select desired hotel Hotel selected\nExpected Result: User name entered Password entered",
+        "retrieval_similarity": 0.2357,
+        "reranker_score": 0.0,
+        "rank": 4
+    },
+    {
+        "requirement_id": "REQ-AUTO-003",
+        "requirement_text": "Requirement ID: REQ-AUTO-003\nRequirement: connection with the customer’s computer will provide the efficient service.",
+        "test_case_id": "TC_03",
+        "test_case_text": "Test Case ID: TC_03\nTitle: Search Hotel\nDescription: Verify the search hotel items functionality of system Prereq: User has login to the account successfully\nSteps: Enter search Hotel Search nearest Hotels\nExpected Result: Hotels displayed Nearest hotels displayed",
+        "retrieval_similarity": 0.2182,
+        "reranker_score": 0.0,
+        "rank": 5
+    }
+]

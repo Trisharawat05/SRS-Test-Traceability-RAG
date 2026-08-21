@@ -1,6 +1,4 @@
 import json
-import shutil
-from pathlib import Path
 
 import chromadb
 
@@ -57,6 +55,9 @@ def create_client():
 # ============================================================
 
 def create_collections(client):
+    """
+    Create or retrieve the requirement and test case collections.
+    """
 
     requirement_collection = (
         client.get_or_create_collection(
@@ -77,13 +78,19 @@ def create_collections(client):
 
 
 # ============================================================
-# ADD REQUIREMENTS
+# ADD / UPDATE REQUIREMENTS
 # ============================================================
 
 def add_requirements(
     collection,
     requirements: list[dict]
 ):
+    """
+    Store requirement embeddings in ChromaDB.
+
+    A unique internal ChromaDB ID is created for every record,
+    while the original requirement ID is preserved as metadata.
+    """
 
     if not requirements:
 
@@ -94,15 +101,7 @@ def add_requirements(
         return
 
     # --------------------------------------------------------
-    # Create UNIQUE ChromaDB IDs
-    #
-    # Source IDs may contain duplicates such as:
-    # FR-01
-    # FR-01
-    # NFR-04
-    # NFR-04
-    #
-    # ChromaDB requires every ID to be unique.
+    # Create unique ChromaDB IDs
     # --------------------------------------------------------
 
     ids = [
@@ -111,10 +110,10 @@ def add_requirements(
     ]
 
     # --------------------------------------------------------
-    # Add records
+    # Add or update records
     # --------------------------------------------------------
 
-    collection.add(
+    collection.upsert(
 
         ids=ids,
 
@@ -135,10 +134,10 @@ def add_requirements(
                     {}
                 ),
 
-                # Original SRS requirement ID
+                # Original requirement ID
                 "record_id": item["id"],
 
-                # Unique ChromaDB ID
+                # Internal unique ChromaDB ID
                 "chroma_id": ids[index]
             }
 
@@ -148,19 +147,25 @@ def add_requirements(
     )
 
     print(
-        f"Added {len(requirements)} "
-        "requirements to ChromaDB."
+        f"Added/updated {len(requirements)} "
+        "requirements in ChromaDB."
     )
 
 
 # ============================================================
-# ADD TEST CASES
+# ADD / UPDATE TEST CASES
 # ============================================================
 
 def add_test_cases(
     collection,
     test_cases: list[dict]
 ):
+    """
+    Store test case embeddings in ChromaDB.
+
+    A unique internal ChromaDB ID is created for every record,
+    while the original test case ID is preserved as metadata.
+    """
 
     if not test_cases:
 
@@ -171,7 +176,7 @@ def add_test_cases(
         return
 
     # --------------------------------------------------------
-    # Create UNIQUE ChromaDB IDs
+    # Create unique ChromaDB IDs
     # --------------------------------------------------------
 
     ids = [
@@ -180,10 +185,10 @@ def add_test_cases(
     ]
 
     # --------------------------------------------------------
-    # Add records
+    # Add or update records
     # --------------------------------------------------------
 
-    collection.add(
+    collection.upsert(
 
         ids=ids,
 
@@ -204,10 +209,10 @@ def add_test_cases(
                     {}
                 ),
 
-                # Original test-case ID
+                # Original test case ID
                 "record_id": item["id"],
 
-                # Unique ChromaDB ID
+                # Internal unique ChromaDB ID
                 "chroma_id": ids[index]
             }
 
@@ -217,8 +222,8 @@ def add_test_cases(
     )
 
     print(
-        f"Added {len(test_cases)} "
-        "test cases to ChromaDB."
+        f"Added/updated {len(test_cases)} "
+        "test cases in ChromaDB."
     )
 
 
@@ -230,19 +235,22 @@ def verify_database(
     requirement_collection,
     testcase_collection
 ):
+    """
+    Display the number of records stored in each collection.
+    """
 
     print(
         "\nDatabase verification:"
     )
 
     print(
-        "Requirements:",
-        requirement_collection.count()
+        f"Requirements: "
+        f"{requirement_collection.count()}"
     )
 
     print(
-        "Test cases:",
-        testcase_collection.count()
+        f"Test cases: "
+        f"{testcase_collection.count()}"
     )
 
 
@@ -252,20 +260,12 @@ def verify_database(
 
 def main():
 
-    print(
-        "=" * 70
-    )
-
-    print(
-        "CHROMADB SETUP"
-    )
-
-    print(
-        "=" * 70
-    )
+    print("=" * 70)
+    print("CHROMADB SETUP")
+    print("=" * 70)
 
     # --------------------------------------------------------
-    # Create persistent client
+    # Create persistent ChromaDB client
     # --------------------------------------------------------
 
     client = create_client()
@@ -303,7 +303,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Load test-case embeddings
+    # Load test case embeddings
     # --------------------------------------------------------
 
     print(
@@ -320,7 +320,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Add requirements
+    # Store requirements
     # --------------------------------------------------------
 
     print(
@@ -333,7 +333,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Add test cases
+    # Store test cases
     # --------------------------------------------------------
 
     print(
@@ -346,7 +346,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Verify
+    # Verify database
     # --------------------------------------------------------
 
     verify_database(
@@ -377,4 +377,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
